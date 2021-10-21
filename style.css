@@ -1,0 +1,111 @@
+:root {
+    --black: #222222;
+    --light-pink: #F1E4E6;
+}
+
+.page {
+    font-family: lato;
+    font-style: 14px;
+    font-style: normal;
+    font-weight: 300px;
+    line-height: 17px;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: var(--black);
+}
+
+.header__nav {
+    display: none;
+}
+
+.header__wrp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 75px;
+}
+
+.header__logo {
+    margin: 0 41px 0 0;
+}
+
+.header__link {
+    margin: 0 31px 0 0;
+}
+
+.header__menu-btn {
+    border: none;
+    background-color: transparent;
+    margin: 0 21px 0 0;
+}
+
+.brand {
+    display: flex;
+}
+
+.brand-wrp {
+    background-color: var(--light-pink);
+    flex-grow: 1;
+    padding: 0 0 0 92px;
+    display: flex;
+    align-items: center;
+}
+
+.brand-title {
+    font-family: lato;
+    font-style: 48px;
+    font-weight: 900px;
+    line-height: 58px;
+    text-transform: uppercase;
+}
+
+.brand-subtitle {
+    display: flex;
+}
+
+.card-box {
+    display: flex;
+    justify-content: center;
+    padding-top: 65px;
+}
+
+.card-box__item-2 {
+    padding: 0 30px 0 30px;
+}
+
+.card-box__element {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.content-p {
+    display: flex;
+    justify-content: center;
+}
+
+.card-box-duble__elem-1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 48px;
+}
+
+.card-box-duble__item-2 {
+    padding: 0 30px 0 30px;
+}
+
+.card-box-duble__elem-2 {
+    display: flex;
+    justify-content: center;
+}
