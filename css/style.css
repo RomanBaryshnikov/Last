@@ -1,0 +1,210 @@
+:root {
+    --black: #222222;
+    --light-pink: #F1E4E6;
+}
+
+.page {
+    font-family: Lato;
+    font-style: 14px;
+    font-style: normal;
+    font-weight: 300px;
+    line-height: 17px;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: var(--black);
+}
+
+.header__nav {
+    display: none;
+}
+
+.header__wrp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 75px;
+}
+
+.header__logo {
+    margin: 0 41px 0 0;
+}
+
+.header__link {
+    margin: 0 31px 0 0;
+}
+
+.header__menu-btn {
+    border: none;
+    background-color: transparent;
+    margin: 0 21px 0 0;
+}
+
+.header__menu-list {
+    list-style-type: none;
+}
+
+.brand {
+    display: flex;
+}
+
+.brand__wrp {
+    padding: 0 0 0 92px;
+    display: flex;
+    align-items: center;
+}
+
+.brand__title {
+    display: flex;
+    flex-direction: column;
+    font-family: lato;
+    font-style: 48px;
+    font-weight: 900px;
+    line-height: 58px;
+    text-transform: uppercase;
+}
+
+.brand__subtitle {
+    font-family: lato;
+    font-weight: 700px;
+    font-style: 32px;
+    line-height: 38px;
+    text-transform: uppercase;
+}
+
+.brand__subtitle-sub {
+    font-family: lato;
+    font-weight: 700px;
+    font-style: 32px;
+    line-height: 38px;
+    color: #F26376;
+    text-transform: uppercase;
+}
+
+.card-box {
+    display: flex;
+    justify-content: center;
+    padding-top: 65px;
+    list-style-type: none;
+}
+
+.card-box__p {
+    font-family: lato;
+    width: 400px;
+}
+
+.card-box-duble__text {
+    width: 300px;
+    background-color: #F8F8F8;
+}
+
+.card-box__item-1-text {
+    position: absolute;
+    text-align: center;
+}
+
+.card-box__item-2 {
+    padding: 0 30px 0 30px;
+}
+
+.card-box-duble__item-5 {
+    padding: 0 30px 0 30px;
+}
+
+.card-box__item-2-text {
+    position: absolute;
+    text-align: center;
+}
+
+.card-box__item-3-text {
+    position: absolute;
+    text-align: center;
+}
+
+.card-box__element {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    list-style-type: none;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.content-p {
+    display: flex;
+    justify-content: center;
+}
+
+.card-box-duble__elem-1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 48px;
+    list-style-type: none;
+}
+
+.card-box-duble__item-2 {
+    padding: 0 30px 0 30px;
+}
+
+.card-box-duble__elem-2 {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding-top: 30px;
+}
+
+.footer-button {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    background: #E5E5E5;
+    width: 211px;
+    height: 47px;
+    background: transparent;
+    margin-top: 49px;
+    margin-bottom: 96px;
+    margin: 49px 464px 96px 1064px;
+}
+
+.button-text {
+    color: #F26376;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.footer__box {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__card {
+    text-align: center;
+    box-sizing: border-box;
+    padding: 104px 15px 104px 15px;
+}
+
+.footer__card-text {
+    width: 360px;
+    height: 34px;
+    color: #FBFBFB;
+}
+
+.footer__top {
+    background-color: #222224;
+    width: 100%;
+}
+
+.footer__bot-bg {
+    width: 100%;
+}
